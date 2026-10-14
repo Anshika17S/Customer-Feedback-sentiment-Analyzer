@@ -112,8 +112,8 @@ Analyzes a CSV file containing reviews (max 5000 rows). Must contain a `review` 
 *Note: The dataset consists mostly of 5-star reviews, leading to significant class imbalance addressed using balanced class weights in Logistic Regression.*
 
 Paste the real evaluation metrics printed by running `python train.py`:
-- **Accuracy:** `[PASTE_ACCURACY_HERE]`
-- **Macro F1:** `[PASTE_MACRO_F1_HERE]`
+- **Accuracy:** `0.8649`
+- **Macro F1:** `0.5839`
 
 Detailed evaluation metrics and predictions are saved in:
 - `results/metrics.csv`
@@ -121,5 +121,5 @@ Detailed evaluation metrics and predictions are saved in:
 
 ## Live Demo Links
 
-- **API:** `[PASTE_API_URL_HERE]`
-- **Dashboard:** `[PASTE_DASHBOARD_URL_HERE]`
+- **API:** `https://customer-feedback-sentiment-analyzer-337g.onrender.com`
+- **Dashboard:** `https://customer-feedback-sentiment-analyzer.streamlit.app/`
